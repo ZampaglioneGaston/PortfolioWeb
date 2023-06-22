@@ -10,7 +10,7 @@ function TechStackOthers() {
       <ul className="my-4 space-y-3">
         <li>
           <a href="https://www.mysql.com/" target='_blank' className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-300 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
-            <Image aria-hidden="true" className="h-6 rounded-full" src="/sqlicon.png" alt="cypress" />
+            <div aria-hidden="true" className="h-6 rounded-full" ><Image src="/sqlicon.png" alt="cypress" /></div>
             <span className="flex-1 ml-3 whitespace-nowrap">SQL</span>
           </a>
         </li>

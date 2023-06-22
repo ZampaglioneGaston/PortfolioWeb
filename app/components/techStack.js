@@ -1,4 +1,10 @@
 import Image from "next/image";
+import { Cypress } from "../../public/Cypress.jpg";
+import { Selenium } from "../../public/Selenium_Logo.png";
+import { Playwright } from "../../public/playwright.png";
+import { Js } from "../../public/jsicon.png";
+import { Java } from "../../public/javaicon.png";
+import { Html } from "../../public/htmlicon.jpg";
 
 function TechStack() {
   return (
@@ -11,11 +17,9 @@ function TechStack() {
         data-test="cypressCard"
       >
         <div className="flex flex-col items-center p-10">
-          <Image
-            className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/Cypress.jpg"
-            alt="cypress"
-          />
+          <div className="w-24 h-24 mb-3 rounded-full shadow-lg">
+            <Image src={Cypress} alt="cypress" />
+          </div>
           <h5 className="mb-1 text-xl font-medium text-gray-900  dark:text-white">
             Cypress.io
           </h5>
@@ -40,7 +44,7 @@ function TechStack() {
         <div className="flex flex-col items-center p-10">
           <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/Selenium_Logo.png"
+            src={Selenium}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">Selenium</h5>
@@ -65,7 +69,7 @@ function TechStack() {
         <div className="flex flex-col items-center p-10">
           <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/playwright.png"
+            src={Playwright}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">
@@ -92,7 +96,7 @@ function TechStack() {
         <div className="flex flex-col items-center p-10">
           <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/jsicon.png"
+            src={Js}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">
@@ -119,7 +123,7 @@ function TechStack() {
         <div className="flex flex-col items-center p-10">
           <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/javaicon.png"
+            src={Java}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">Java</h5>
@@ -144,7 +148,7 @@ function TechStack() {
         <div className="flex flex-col items-center p-10">
           <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/htmlicon.jpg"
+            src={Html}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">HTML5</h5>
