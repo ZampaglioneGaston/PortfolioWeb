@@ -1,4 +1,6 @@
 import { AiFillLinkedin } from "react-icons/ai";
+import Image from "next/image";
+
 function AboutMe() {
   return (
     <div className="h-fit">

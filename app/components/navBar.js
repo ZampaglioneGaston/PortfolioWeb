@@ -1,6 +1,3 @@
-import {HashLink as Link} from 'react-router-hash-link';
-
-
 function NavegationBar(){
   return <section data-test='bottonNav'>
   <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t border-gray-200 dark:bg-gray-800 dark:border-gray-600">

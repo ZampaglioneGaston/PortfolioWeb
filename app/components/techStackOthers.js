@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function TechStackOthers() {
   return (
     <section data-test='stackTech' className='flex flex-wrap sm:flex gap-3 pb-10 ml-20 mb-20 mr-20 mt-10 justify-center sticky items-center'>
