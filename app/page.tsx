@@ -1,7 +1,6 @@
 "use client";
 
 import Head from 'next/head'
-import { BsMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 import { useState } from "react";
@@ -16,7 +15,7 @@ import { BrowserRouter } from 'react-router-dom';
 function Home() {
   const [darkMode, setDarkMode] = useState(false)
   return (
-    <BrowserRouter>
+    <div>
       <div className={darkMode ? "dark" : ""}>
         <Head>
           <title>Gaston Zampaglione</title>
@@ -59,7 +58,8 @@ function Home() {
           <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full'><p className='my-1 flex justify-center text-5xl font-LouisLight font-bold dark:text-white border-b-2' id="aboutMe">About Me</p></div>
           <section><AboutMe /></section>
         </main>
-      </div> </BrowserRouter>
+      </div> 
+      </div>
   )
 }
 

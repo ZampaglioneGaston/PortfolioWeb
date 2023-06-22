@@ -19,7 +19,7 @@ function AboutMe() {
                 </h1>
                 <p className="font-semibold mb-5">QA Engineer</p>
                 <p className="mb-2 font-normal text-gray-900 dark:text-white indent-5">
-                  Hi! I'm Gaston Zampaglione, an automation and manual QA with a
+                  Hi! I am Gaston Zampaglione, an automation and manual QA with a
                   technical education background. I graduated as an Electronic
                   Technician and continued my studies at the National
                   Technological University in System Engineering. I was soon
