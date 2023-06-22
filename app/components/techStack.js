@@ -9,7 +9,7 @@ function TechStack() {
         data-test="cypressCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/Cypress.jpg"
             alt="cypress"
@@ -36,7 +36,7 @@ function TechStack() {
         data-test="seleniumCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/Selenium_Logo.png"
             alt="image"
@@ -61,7 +61,7 @@ function TechStack() {
         data-test="playwrightCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/playwright.png"
             alt="image"
@@ -88,7 +88,7 @@ function TechStack() {
         data-test="jsCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/jsicon.png"
             alt="image"
@@ -115,7 +115,7 @@ function TechStack() {
         data-test="javaCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/javaicon.png"
             alt="image"
@@ -140,7 +140,7 @@ function TechStack() {
         data-test="htmlCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/htmlicon.jpg"
             alt="image"
