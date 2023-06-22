@@ -1,3 +1,6 @@
+import cypressPic from "../../public/Cypress.jpg";
+import Image from "next/image";
+
 function TechStack() {
   return (
     <section
@@ -9,9 +12,9 @@ function TechStack() {
         data-test="cypressCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/Cypress.jpg"
+            src={cypressPic}
             alt="cypress"
           />
           <h5 className="mb-1 text-xl font-medium text-gray-900  dark:text-white">
