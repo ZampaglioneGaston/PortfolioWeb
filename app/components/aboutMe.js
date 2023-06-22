@@ -1,6 +1,4 @@
 import { AiFillLinkedin } from "react-icons/ai";
-import Image from "next/image";
-
 function AboutMe() {
   return (
     <div className="h-fit">
@@ -8,7 +6,7 @@ function AboutMe() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:h-screen md:h-screen">
             <div className="max-h-96 md:h-screen">
-              <Image
+              <img
                 className="w-screen h-screen object-cover object-top"
                 src="/buhito.jpg"
                 alt=""
@@ -21,7 +19,7 @@ function AboutMe() {
                 </h1>
                 <p className="font-semibold mb-5">QA Engineer</p>
                 <p className="mb-2 font-normal text-gray-900 dark:text-white indent-5">
-                  Hi! I am Gaston Zampaglione, an automation and manual QA with a
+                  Hi! I'm Gaston Zampaglione, an automation and manual QA with a
                   technical education background. I graduated as an Electronic
                   Technician and continued my studies at the National
                   Technological University in System Engineering. I was soon

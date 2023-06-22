@@ -50,6 +50,13 @@ function Home() {
           <div className='max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full'><p className='my-5 flex justify-center text-5xl font-LouisLight font-bold dark:text-white border-b-2' id="techStack">Tech Stack</p></div>
           <TechStack />
 
+          <section><TechStackOther /></section>
+
+          <div className='max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full'><p className='my-2 flex justify-center text-5xl font-LouisLight font-bold dark:text-white border-b-2' id="experience">Experience</p></div>
+          <section> <Experience /> </section>
+
+          <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full'><p className='my-1 flex justify-center text-5xl font-LouisLight font-bold dark:text-white border-b-2' id="aboutMe">About Me</p></div>
+          <section><AboutMe /></section>
         </main>
       </div> 
       </div>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 function Experience() {
   return (
     <section
@@ -7,7 +5,7 @@ function Experience() {
       className="flex flex-wrap sm:flex gap-3 pb-10 ml-20 mb-20 mr-20 mt-5 justify-center sticky items-center"
     >
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl  dark:hover:border-teal-500 shadow-lg">
-        <Image className="border-b-2 rounded-t-xl" src="/blizzard.png" alt="" />
+        <img className="border-b-2 rounded-t-xl" src="/blizzard.png" alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Blizzard Entertainment
@@ -40,7 +38,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <Image className="border-b-2 rounded-t-xl" src="/nautob.png" alt="" />
+        <img className="border-b-2 rounded-t-xl" src="/nautob.png" alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Nauto AI software
@@ -73,7 +71,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <Image className="border-b-2 rounded-t-xl" src="/iDocket.png" alt="" />
+        <img className="border-b-2 rounded-t-xl" src="/iDocket.png" alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             iDocket UCSM
@@ -106,7 +104,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <Image className="border-b-2 rounded-t-xl" src="/Atria.png" alt="" />
+        <img className="border-b-2 rounded-t-xl" src="/Atria.png" alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Atria Wealth Solutions
@@ -139,7 +137,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <Image className="border-b-2 rounded-t-xl" src="/gj.png" alt="" />
+        <img className="border-b-2 rounded-t-xl" src="/gj.png" alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Gojiraf Live Shopping
