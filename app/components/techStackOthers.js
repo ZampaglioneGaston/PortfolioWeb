@@ -1,3 +1,6 @@
+import sql from "../../public/sqlicon.png";
+import Image from "next/image";
+
 function TechStackOthers() {
   return (
     <section data-test='stackTech' className='flex flex-wrap sm:flex gap-3 pb-10 ml-20 mb-20 mr-20 mt-10 justify-center sticky items-center'>
@@ -8,7 +11,7 @@ function TechStackOthers() {
       <ul className="my-4 space-y-3">
         <li>
           <a href="https://www.mysql.com/" target='_blank' className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-300 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
-            <img aria-hidden="true" className="h-6 rounded-full" src="/sqlicon.png" alt="cypress" />
+            <img aria-hidden="true" className="h-6 rounded-full" src={sql} alt="cypress" />
             <span className="flex-1 ml-3 whitespace-nowrap">SQL</span>
           </a>
         </li>

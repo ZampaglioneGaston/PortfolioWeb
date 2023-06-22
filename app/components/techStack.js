@@ -1,4 +1,9 @@
 import cypressPic from "../../public/Cypress.jpg";
+import selenium from "../../public/Selenium_Logo.png";
+import playwright from "../../public/playwright.png";
+import js from "../../public/jsicon.png";
+import java from "../../public/javaicon.png";
+import html from "../../public/htmlicon.jpg";
 import Image from "next/image";
 
 function TechStack() {
@@ -39,9 +44,9 @@ function TechStack() {
         data-test="seleniumCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/Selenium_Logo.png"
+            src={selenium}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">Selenium</h5>
@@ -64,9 +69,9 @@ function TechStack() {
         data-test="playwrightCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/playwright.png"
+            src={playwright}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">
@@ -91,9 +96,9 @@ function TechStack() {
         data-test="jsCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/jsicon.png"
+            src={js}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">
@@ -118,9 +123,9 @@ function TechStack() {
         data-test="javaCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/javaicon.png"
+            src={java}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">Java</h5>
@@ -143,9 +148,9 @@ function TechStack() {
         data-test="htmlCard"
       >
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
-            src="/htmlicon.jpg"
+            src={html}
             alt="image"
           />
           <h5 className="mb-1 text-xl font-medium dark:text-white">HTML5</h5>
