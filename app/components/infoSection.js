@@ -30,7 +30,7 @@ function InfoSec() {
         <div className="relative group mx-auto h-80 w-80 lg:w-96 lg:h-96 rounded-s-full rounded-e-full bg-orange-400 dark:bg-teal-400 p-1 shadow-lg">
           <div className="absolute inset-0  h-80 w-80 lg:w-96 lg:h-96 rounded-s-full rounded-e-full bg-gradient-to-r  from-pink-400 to-orange-700 dark:from-teal-500 dark:to-blue-500 blur-lg dark:blur-xl opacity-50 dark:opacity-75 group-hover:duration-200 group-hover:opacity-100 transition duration-1000"></div>
           <div className="relative bg-gray-800 rounded-full overflow-hidden group-hover transition duration-200">
-            <Image src={profilePic} alt="profilePsicture" />
+            <img src={profilePic} alt="profilePsicture" />
           </div>
         </div>
       </div>
