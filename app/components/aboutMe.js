@@ -5,17 +5,17 @@ import Image from "next/image";
 function AboutMe() {
   return (
     <div className="h-fit">
-      <section className="mb-10 sm:mb-24 p-10">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:h-screen md:h-screen">
-            <div className="max-h-96 md:h-screen">
+      <section className="rounded-2xl mb-10 sm:mb-24 p-10 ">
+        <div className="container rounded-2xl overflow-hidden mx-auto shadow-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:h-screen md:h-screen rounded-2xl ">
+            <div className="md:h-screen">
               <Image
                 className="w-screen h-screen object-cover object-top"
                 src={me}
                 alt=""
               />
             </div>
-            <div className="flex bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700  shadow-2xl  p-10">
+            <div className="flex bg-gray-100 border border-gray-200  dark:bg-gray-800 dark:border-gray-700    p-10">
               <div className="mb-auto mt-auto max-w-lg  text-gray-900 dark:text-white font-bold">
                 <h1 className="text-3xl uppercase">
                   A little summary about myself
