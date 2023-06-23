@@ -1,4 +1,7 @@
 import { AiFillLinkedin } from "react-icons/ai";
+import me from "../../public/buhito.jpg"
+import Image from "next/image";
+
 function AboutMe() {
   return (
     <div className="h-fit">
@@ -6,9 +9,9 @@ function AboutMe() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:h-screen md:h-screen">
             <div className="max-h-96 md:h-screen">
-              <img
+              <Image
                 className="w-screen h-screen object-cover object-top"
-                src="/buhito.jpg"
+                src={me}
                 alt=""
               />
             </div>

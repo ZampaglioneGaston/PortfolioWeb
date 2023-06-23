@@ -1,3 +1,10 @@
+import blizz from "../../public/blizzard.png";
+import gj from "../../public/gj.png";
+import nauto from "../../public/nautob.png";
+import idocket from "../../public/iDocket.png";
+import atria from "../../public/Atria.png";
+import Image from "next/image";
+
 function Experience() {
   return (
     <section
@@ -5,7 +12,7 @@ function Experience() {
       className="flex flex-wrap sm:flex gap-3 pb-10 ml-20 mb-20 mr-20 mt-5 justify-center sticky items-center"
     >
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl  dark:hover:border-teal-500 shadow-lg">
-        <img className="border-b-2 rounded-t-xl" src="/blizzard.png" alt="" />
+        <Image className="border-b-2 rounded-t-xl" src={blizz} alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Blizzard Entertainment
@@ -38,7 +45,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <img className="border-b-2 rounded-t-xl" src="/nautob.png" alt="" />
+        <Image className="border-b-2 rounded-t-xl" src={nauto} alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Nauto AI software
@@ -71,7 +78,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <img className="border-b-2 rounded-t-xl" src="/iDocket.png" alt="" />
+        <Image className="border-b-2 rounded-t-xl" src={idocket} alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             iDocket UCSM
@@ -104,7 +111,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <img className="border-b-2 rounded-t-xl" src="/Atria.png" alt="" />
+        <Image className="border-b-2 rounded-t-xl" src={atria} alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Atria Wealth Solutions
@@ -137,7 +144,7 @@ function Experience() {
       </div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  hover:shadow-2xl  dark:hover:border-teal-500">
-        <img className="border-b-2 rounded-t-xl" src="/gj.png" alt="" />
+        <Image className="border-b-2 rounded-t-xl" src={gj} alt="" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Gojiraf Live Shopping
