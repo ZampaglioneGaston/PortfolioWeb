@@ -1,8 +1,8 @@
 import blizz from "../../public/blizzard.png";
 import gj from "../../public/gj.png";
 import nauto from "../../public/nautob.png";
-import idocket from "../../public/iDocket.png";
-import atria from "../../public/Atria.png";
+import idocket from "../../public/idocket.png";
+import atria from "../../public/atria.png"
 import Image from "next/image";
 
 function Experience() {

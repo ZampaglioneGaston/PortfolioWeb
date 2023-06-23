@@ -1,5 +1,5 @@
 import { AiFillLinkedin } from "react-icons/ai";
-import me from "../../public/buhito.jpg"
+import me from "../../public/Buhito.jpg"
 import Image from "next/image";
 
 function AboutMe() {
