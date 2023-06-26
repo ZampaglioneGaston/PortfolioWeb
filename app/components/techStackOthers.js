@@ -75,7 +75,7 @@ function TechStackOthers() {
         <li>
           <a href="https://code.visualstudio.com/" target='_blank' className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-300 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
             <Image aria-hidden="true" className="h-6 w-6 rounded-full" src={vscode} alt="cypress" />
-            <span className="flex-1 ml-3 whitespace-nowrap">Visual Studio Code</span>
+            <span className="flex-1 ml-3 whitespace-nowrap">VSC</span>
           </a>
         </li>
         <li>
@@ -125,7 +125,7 @@ function TechStackOthers() {
         <li>
           <a href="https://jmeter.apache.org/" target='_blank' className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-300 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
             <Image aria-hidden="true" className="h-6 w-6 rounded-full" src={jmeter} alt="cypress" />
-            <span className="flex-1 ml-3 whitespace-nowrap">Apache Jmeter</span>
+            <span className="flex-1 ml-3 whitespace-nowrap">Jmeter</span>
           </a>
         </li>
         <li>
