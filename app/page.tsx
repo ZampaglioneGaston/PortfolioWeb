@@ -20,9 +20,9 @@ function Home() {
         <Head>
           <title>Gaston Zampaglione</title>
         </Head>
-        <main className=" bg-white max-w-none overflow-auto max-h-none px-10 dark:bg-black" data-test='background'>
+        <main className=" bg-white max-w-none overflow-auto max-h-none dark:bg-black" data-test='background'>
           <section data-test='topBar' id='main'>
-            <nav className='py-10 mb-12 flex justify-between md:px-20 lg:px-40'>
+            <nav className='py-10 px-2 mb-12 flex justify-between md:px-20 lg:px-40'>
               <h1 className='text-2xl font-LouisBold font-bold dark:text-white' data-test='welcome' >Professional Portfolio</h1>
               <ul className='flex items-center' data-test='topButons'>
                 <li data-test='darkThemeIcon' className='cursor-pointer  dark:text-white mt-2' onChange={() => setDarkMode(!darkMode)}>
